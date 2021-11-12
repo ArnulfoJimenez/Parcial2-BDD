@@ -70,17 +70,20 @@ INSERT INTO Veterinario VALUES (4,'Lic.Pablo','Jimenez','Asistente');
 
 select * from Veterinario;
 
-INSERT INTO Ingreso VALUES ('Revision','','Sano',1,1);
-INSERT INTO Ingreso VALUES ('Revision','','Semi Sano',2,2);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',3,3);
-INSERT INTO Ingreso VALUES ('Revision','','Enfermo',4,4);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',5,5);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',6,6);
-INSERT INTO Ingreso VALUES ('Revision','','Enfermo',7,7);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',8,8);
-INSERT INTO Ingreso VALUES ('Revision','','Enfermo',9,9);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',10,10);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',1,9);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',2,8);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',3,6);
-INSERT INTO Ingreso VALUES ('Revision','','Sano',4,7);
+INSERT INTO Ingreso VALUES (1,'Revision','','Sano',1,1);
+INSERT INTO Ingreso VALUES (2,'Revision','','Semi Sano',2,2);
+INSERT INTO Ingreso VALUES (3,'Revision','','Sano',3,3);
+INSERT INTO Ingreso VALUES (4,'Revision','','Enfermo',4,4);
+INSERT INTO Ingreso VALUES (5,'Revision','','Sano',5,5);
+INSERT INTO Ingreso VALUES (6,'Revision','','Sano',6,6);
+INSERT INTO Ingreso VALUES (7,'Revision','','Enfermo',7,7);
+INSERT INTO Ingreso VALUES (8,'Revision','','Sano',8,8);
+INSERT INTO Ingreso VALUES (9,'Revision','','Enfermo',9,9);
+INSERT INTO Ingreso VALUES (10,'Revision','','Sano',10,10);
+INSERT INTO Ingreso VALUES (11,'Revision','','Sano',1,1);
+INSERT INTO Ingreso VALUES (12,'Revision','','Sano',2,2);
+INSERT INTO Ingreso VALUES (13,'Revision','','Sano',3,3);
+INSERT INTO Ingreso VALUES (14,'Revision','','Sano',4,4);
+
+
+select * from Ingreso
